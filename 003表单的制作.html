@@ -1,0 +1,82 @@
+<!--
+项目名称   ：制作网页表单
+项目负责人 ：wuyin517
+The lastest:2019/4/26
+-->
+
+<!DOCTYPE html>
+<html leng="en">
+<head>
+	<meta charset="utf-8">
+	<title>表单提交</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<h1>网页表单</h1>
+	<form action="" method="get">
+		<div>
+			<label for="username">账号</label>
+			<input type="text" name="username" id="username">
+		</div>
+		<br>
+
+		<div>
+			<label for="password">密码</label>
+			<input type="password" name="password" id="password">
+		</div>
+		<br>
+
+		<div>
+			<label>性别</label>
+			<input type="radio" name="gender" value="0" id="man"><label for="man">男</label>
+			<input type="radio" name="gender" value="1" id="woman"><label for="woman">女</label>
+		</div>
+		<br>
+
+		<div>
+			<label>爱好</label>
+			<input type="checkbox" name="like" value="beautiful girl"><label>美女</label>
+			<input type="checkbox" name="like" value="study"><label>读书</label>
+			<input type="checkbox" name="like" value="sport"><label>运动</label>
+			<input type="checkbox" name="like" value="python"><label>编程</label>
+		</div>
+
+		<br>
+
+		<div>
+			<label>选择上传的文件</label>
+			<input type="file" name="">
+		</div>
+
+		<br>
+
+		<div>
+			<label>个人介绍</label>
+			<textarea name="introduce "></textarea>
+		</div>
+
+		<br>
+
+		<div>
+			<label>籍贯</label>
+			<select name="sit">
+				<option value="0">北京</option>
+				<option value="1">海南</option>
+				<option value="2">上海</option>
+				<option value="3">重庆</option>
+			</select>
+		</div>
+
+		<br>
+
+		<div>
+			<input type="submit" name="" value="提交">
+			<input type="reset" name="" value="重置">
+		</div>
+
+
+
+	</form>
+
+</body>
+</html>
